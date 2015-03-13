@@ -1,0 +1,126 @@
+#
+# Geográficas ETRS89
+#
+<etrs89>
++proj=latlong
++ellps=GRS80
++towgs84=0,0,0
+<>
+
+#
+# PTTM06 do datum ETRS89
+#
+<pttm06>
++proj=tmerc
++ellps=GRS80
++towgs84=0,0,0
++lat_0=39d40'05.73"N
++lon_0=08d07'59.19"W
+<> 
+
+#
+# PTTM06 do datum ETRS89 (versão militar)
+#
+<pttm06mil>
++proj=tmerc
++ellps=GRS80
++towgs84=0,0,0
++lat_0=39d40'05.73"N
++lon_0=08d07'59.19"W
++x_0=200000
++y_0=300000
+<>
+
+#
+# UTM para fuso 29
+#
+<etrs89utm>
++proj=utm
++ellps=GRS80
++towgs84=0,0,0
++zone=29
+<> 
+
+#
+# Geográficas Datum73
+#
+<d73geo>
++proj=latlong
++ellps=intl
++towgs84=-230.994,102.591,25.199,0.633,-0.239,0.900,1.950
+<>
+
+#
+# Hayford-Gauss datum 73 (IGP)
+#
+<d73hg>
++proj=tmerc
++ellps=intl
++towgs84=-230.994,102.591,25.199,0.633,-0.239,0.900,1.950
++lat_0=39d40
++lon_0=8d07'54.862"W
++x_0=180.598
++y_0=-86.99
+<>
+
+#
+# Hayford-Gauss datum 73 (IGP) + translaccao militar
+#
+<d73hgmil>
++proj=tmerc
++ellps=intl
++towgs84=-230.994,102.591,25.199,0.633,-0.239,0.900,1.950
++lat_0=39d40
++lon_0=8d07'54.862"W
++x_0=200180.598
++y_0=299913.010
+<> 
+
+
+#
+# Geográficas Datum Lisboa
+#
+<dlxgeo>
++proj=latlong
++ellps=intl
++towgs84=-283.088,-70.693,117.445,-1.157,0.059,-0.652,-4.058
+<> 
+
+#
+# Hayford-Gauss datum Lisboa
+#
+<dlxhg>
++proj=tmerc
++ellps=intl
++towgs84=-283.088,-70.693,117.445,-1.157,0.059,-0.652,-4.058
++lat_0=39d40
++lon_0=8d07'54.862"W
+<>
+
+#
+# Hayford-Gauss datum Lisboa (militar)
+#
+<dlxhgmil>
++proj=tmerc
++ellps=intl
++towgs84=-283.088,-70.693,117.445,-1.157,0.059,-0.652,-4.058
++lat_0=39d40
++lon_0=8d07'54.862"W
++x_0=200000
++y_0=300000
+<> 
+
+# Geográficas ED50 
+<ed50geo>
++proj=latlong
++ellps=intl
++towgs84=-68.863,-134.89,-111.49,-0.53,-0.14,0.57,-3.4
+<>
+
+# UTM 29-N Datum Europeu 1950
+<ed50utm>
++proj=utm
++ellps=intl
++towgs84=-68.863,-134.89,-111.49,-0.53,-0.14,0.57,-3.4
++zone=29
+<>

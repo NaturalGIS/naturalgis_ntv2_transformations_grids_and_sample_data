@@ -1,0 +1,121 @@
+# Geográficas ETRS89
+<etrs89>
++proj=latlong
++ellps=GRS80
++towgs84=0,0,0
+<>
+
+# PTTM06 do datum ETRS89
+<pttm06>
++proj=tmerc
++ellps=GRS80
++towgs84=0,0,0
++lat_0=39d40'05.73"N
++lon_0=08d07'59.19"W
+<>
+
+# PTTM06 do datum ETRS89 (versão militar)
+<pttm06mil>
++proj=tmerc
++ellps=GRS80
++towgs84=0,0,0
++lat_0=39d40'05.73"N
++lon_0=08d07'59.19"W
++x_0=200000
++y_0=300000
+<>
+
+# UTM para fuso 29
+<etrs89utm>
++proj=utm
++ellps=GRS80
++towgs84=0,0,0
++zone=29
+<>
+
+# Geográficas Datum 73
+<d73geo>
++proj=latlong
++ellps=intl
++nadgrids=pt73_e89.gsb
+<>
+
+# Hayford-Gauss datum 73 (IGP)
+<d73hg>
++proj=tmerc
++ellps=intl
++nadgrids=pt73_e89.gsb
++lat_0=39d40
++lon_0=8d07'54.862"W
++x_0=180.598
++y_0=-86.990
+<>
+
+# Hayford-Gauss datum 73 (IGP) + translaccao militar
+<d73hgmil>
++proj=tmerc
++ellps=intl
++nadgrids=pt73_e89.gsb
++lat_0=39d40
++lon_0=8d07'54.862"W
++x_0=200180.598
++y_0=299913.010
+<>
+
+# Geográficas Datum Lisboa - Elips. Hayford
+<dlxgeo>
++proj=latlong
++ellps=intl
++nadgrids=ptLX_e89.gsb
+<>
+
+# Hayford-Gauss datum Lisboa
+<dlxhg>
++proj=tmerc
++ellps=intl
++nadgrids=ptLX_e89.gsb
++lat_0=39d40
++lon_0=8d07'54.862"W
+<>
+
+# Hayford-Gauss datum Lisboa (militar)
+<dlxhgmil>
++proj=tmerc
++ellps=intl
++nadgrids=ptLX_e89.gsb
++lat_0=39d40
++lon_0=8d07'54.862"W
++x_0=200000
++y_0=300000
+<>
+
+# Geográficas ED50 
+<ed50geo>
++proj=latlong
++ellps=intl
++nadgrids=ptED_e89.gsb
+<>
+
+# UTM 29-N Datum Europeu 1950
+<ed50utm>
++proj=utm
++ellps=intl
++nadgrids=ptED_e89.gsb
++zone=29
+<>
+
+# Geográficas Datum Lisboa - Elipsoide de Bessel
+<dlxbgeo>
++proj=latlong
++ellps=bessel
++nadgrids=ptLB_e89.gsb
+<>
+
+# Sistema Bessel-Bonne
+<dlxbb>
++proj=bonne
++ellps=bessel
++nadgrids=ptLB_e89.gsb
++lat_1=39d40
++lon_0=08d07'54.862"W
+<>

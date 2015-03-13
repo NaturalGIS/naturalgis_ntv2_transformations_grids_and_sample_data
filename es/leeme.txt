@@ -1,0 +1,16 @@
+
+PEN2009v9.gsb
+
+
+Es el mismo archivo que R2009V9.gsb, se ha cambiado de nombre para facilitar al usuario su identificación.
+
+Contiene datos de REGENTE, ROI, cuarto orden de Valencia (ICV) y otros cuartos órdenes allí donde están disponibles.
+
+
+BALR2009.gsb
+
+Contiene tanto datos de REGENTE como ROI
+
+
+Ambos ficheros estuvieron originalmente empaquetados en un único fichero SPED2ETV2.gsb, debido a problemas de 
+compatibilidad con algunos programas se decidió descomponer en sus dos ámbitos geográficos (Península y Baleares)
