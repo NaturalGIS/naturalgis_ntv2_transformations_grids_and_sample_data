@@ -15,36 +15,33 @@
   </layer-tree-group>
   <relations/>
   <mapcanvas>
-    <units>meters</units>
+    <units>degrees</units>
     <extent>
-      <xmin>407941.89356540731387213</xmin>
-      <ymin>4745391.13675733841955662</ymin>
-      <xmax>407953.86373751267092302</xmax>
-      <ymax>4745394.99334578402340412</ymax>
+      <xmin>-4.12679200758310127</xmin>
+      <ymin>42.85553945278618926</ymin>
+      <xmax>-4.12664401498670763</xmax>
+      <ymax>42.8556236925305285</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
     <destinationsrs>
       <spatialrefsys>
-        <proj4>+proj=utm +zone=30 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-        <srsid>2103</srsid>
-        <srid>25830</srid>
-        <authid>EPSG:25830</authid>
-        <description>ETRS89 / UTM zone 30N</description>
-        <projectionacronym>utm</projectionacronym>
+        <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+        <srsid>3390</srsid>
+        <srid>4258</srid>
+        <authid>EPSG:4258</authid>
+        <description>ETRS89</description>
+        <projectionacronym>longlat</projectionacronym>
         <ellipsoidacronym>GRS80</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
+        <geographicflag>true</geographicflag>
       </spatialrefsys>
     </destinationsrs>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:25830" srcAuthId="EPSG:3042" srcDatumTransform="-1" destDatumTransform="-1" layerid="bbb20150312211145292"/>
-      <layer_coordinate_transform destAuthId="EPSG:25830" srcAuthId="EPSG:3042" srcDatumTransform="-1" destDatumTransform="-1" layerid="direct_23030_to_2583020150312221329723"/>
-      <layer_coordinate_transform destAuthId="EPSG:25830" srcAuthId="EPSG:23030" srcDatumTransform="-1" destDatumTransform="-1" layerid="ed50_utm30n_2303020150312202312461"/>
-      <layer_coordinate_transform destAuthId="EPSG:25830" srcAuthId="EPSG:3042" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150312202708118"/>
-      <layer_coordinate_transform destAuthId="EPSG:25830" srcAuthId="EPSG:3042" srcDatumTransform="-1" destDatumTransform="-1" layerid="o120150312220317245"/>
-      <layer_coordinate_transform destAuthId="EPSG:25830" srcAuthId="EPSG:3042" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150312202447315"/>
-      <layer_coordinate_transform destAuthId="EPSG:25830" srcAuthId="EPSG:25830" srcDatumTransform="-1" destDatumTransform="-1" layerid="etrs89_30n_2583020150312202209471"/>
-      <layer_coordinate_transform destAuthId="EPSG:25830" srcAuthId="EPSG:3042" srcDatumTransform="-1" destDatumTransform="-1" layerid="bbb20150312211253222"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:4258" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150313171413224"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:3042" srcDatumTransform="-1" destDatumTransform="-1" layerid="direct_23030_to_2583020150312221329723"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:23030" srcDatumTransform="-1" destDatumTransform="-1" layerid="ed50_utm30n_2303020150312202312461"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:25830" srcDatumTransform="-1" destDatumTransform="-1" layerid="etrs89_30n_2583020150312202209471"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:23030" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150313171445392"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <visibility-presets/>
@@ -177,10 +174,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -313,10 +310,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -449,10 +446,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -528,9 +525,9 @@
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">1</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>etrs89_30n_2583020150312202209471</value>
-        <value>ed50_utm30n_2303020150312202312461</value>
         <value>direct_23030_to_2583020150312221329723</value>
+        <value>ed50_utm30n_2303020150312202312461</value>
+        <value>etrs89_30n_2583020150312202209471</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>enabled</value>

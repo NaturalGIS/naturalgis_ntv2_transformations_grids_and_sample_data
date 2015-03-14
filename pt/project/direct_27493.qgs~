@@ -38,6 +38,7 @@
     </destinationsrs>
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:3763" srcAuthId="EPSG:27493" srcDatumTransform="-1" destDatumTransform="-1" layerid="datum73_2749320150312180652513"/>
+      <layer_coordinate_transform destAuthId="EPSG:3763" srcAuthId="EPSG:3763" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150312225426707"/>
       <layer_coordinate_transform destAuthId="EPSG:3763" srcAuthId="EPSG:3763" srcDatumTransform="-1" destDatumTransform="-1" layerid="etrs89_pttm06_376320150312180545469"/>
       <layer_coordinate_transform destAuthId="EPSG:3763" srcAuthId="EPSG:3763" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150312180931912"/>
       <layer_coordinate_transform destAuthId="EPSG:3763" srcAuthId="EPSG:27493" srcDatumTransform="-1" destDatumTransform="-1" layerid="Cont_AAD_CAOP2013_D7320150312180601110"/>
@@ -313,10 +314,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -591,10 +592,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -869,10 +870,10 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -951,9 +952,9 @@
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">1</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>etrs89_pttm06_376320150312180545469</value>
         <value>datum73_2749320150312180652513</value>
         <value>direct_27493_to_376320150312181007675</value>
+        <value>etrs89_pttm06_376320150312180545469</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>enabled</value>

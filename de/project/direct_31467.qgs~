@@ -15,36 +15,35 @@
   </layer-tree-group>
   <relations/>
   <mapcanvas>
-    <units>meters</units>
+    <units>degrees</units>
     <extent>
-      <xmin>309248.84764745749998838</xmin>
-      <ymin>5482983.61722859274595976</ymin>
-      <xmax>309248.85071071714628488</xmax>
-      <ymax>5482983.62136560212820768</ymax>
+      <xmin>7.60428276853314422</xmin>
+      <ymin>47.5776886709426492</ymin>
+      <xmax>7.60474547007730983</xmax>
+      <ymax>47.57793147046314175</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
     <destinationsrs>
       <spatialrefsys>
-        <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-        <srsid>2105</srsid>
-        <srid>25832</srid>
-        <authid>EPSG:25832</authid>
-        <description>ETRS89 / UTM zone 32N</description>
-        <projectionacronym>utm</projectionacronym>
+        <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+        <srsid>3390</srsid>
+        <srid>4258</srid>
+        <authid>EPSG:4258</authid>
+        <description>ETRS89</description>
+        <projectionacronym>longlat</projectionacronym>
         <ellipsoidacronym>GRS80</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
+        <geographicflag>true</geographicflag>
       </spatialrefsys>
     </destinationsrs>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:3044" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150312200729752"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:2056" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150312200627227"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:3044" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150312201144896"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:3044" srcDatumTransform="-1" destDatumTransform="-1" layerid="direct_31467_to_2583220150312195113069"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:3044" srcDatumTransform="-1" destDatumTransform="-1" layerid="bbb20150312201317911"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:25832" srcDatumTransform="-1" destDatumTransform="-1" layerid="erts89_utm32n_2583220150312194738451"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:31467" srcDatumTransform="-1" destDatumTransform="-1" layerid="gk3_3146720150312194644581"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:3044" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150312195037616"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:4258" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150313170728871"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:31467" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150313170756778"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:4258" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150313165926236"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:3396" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150313170004677"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:3044" srcDatumTransform="-1" destDatumTransform="-1" layerid="direct_31467_to_2583220150312195113069"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:31467" srcDatumTransform="-1" destDatumTransform="-1" layerid="gk3_3146720150312194644581"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:25832" srcDatumTransform="-1" destDatumTransform="-1" layerid="erts89_utm32n_2583220150312194738451"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <visibility-presets/>

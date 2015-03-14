@@ -21,36 +21,37 @@
   </layer-tree-group>
   <relations/>
   <mapcanvas>
-    <units>meters</units>
+    <units>degrees</units>
     <extent>
-      <xmin>762893.95818890549708158</xmin>
-      <ymin>4965859.47285773698240519</ymin>
-      <xmax>762920.8348101518349722</xmax>
-      <ymax>4965873.76491095963865519</ymax>
+      <xmin>12.30498637234785164</xmin>
+      <ymin>44.79985060097820337</ymin>
+      <xmax>12.30590093964413256</xmax>
+      <ymax>44.80036137981313971</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
     <destinationsrs>
       <spatialrefsys>
-        <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-        <srsid>2105</srsid>
-        <srid>25832</srid>
-        <authid>EPSG:25832</authid>
-        <description>ETRS89 / UTM zone 32N</description>
-        <projectionacronym>utm</projectionacronym>
+        <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+        <srsid>3390</srsid>
+        <srid>4258</srid>
+        <authid>EPSG:4258</authid>
+        <description>ETRS89</description>
+        <projectionacronym>longlat</projectionacronym>
         <ellipsoidacronym>GRS80</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
+        <geographicflag>true</geographicflag>
       </spatialrefsys>
     </destinationsrs>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:3044" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150312174634777"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:3003" srcDatumTransform="-1" destDatumTransform="-1" layerid="monte_mario_300320150312174430071"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:23032" srcDatumTransform="-1" destDatumTransform="-1" layerid="V_PRV_GPG20150312174904032"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:23032" srcDatumTransform="-1" destDatumTransform="-1" layerid="ed50_2303220150312174937426"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:3044" srcDatumTransform="-1" destDatumTransform="-1" layerid="direct_3003_to_2583220150312174720519"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:25832" srcDatumTransform="-1" destDatumTransform="-1" layerid="etrs89_32n_2583220150312174454230"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:3044" srcDatumTransform="-1" destDatumTransform="-1" layerid="direct_23032_to_2583220150312175031148"/>
-      <layer_coordinate_transform destAuthId="EPSG:25832" srcAuthId="EPSG:3044" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150312175007691"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:4258" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150313174202556"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:3003" srcDatumTransform="-1" destDatumTransform="-1" layerid="monte_mario_300320150312174430071"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:23032" srcDatumTransform="-1" destDatumTransform="-1" layerid="ed50_2303220150312174937426"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:3044" srcDatumTransform="-1" destDatumTransform="-1" layerid="direct_3003_to_2583220150312174720519"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:25832" srcDatumTransform="-1" destDatumTransform="-1" layerid="etrs89_32n_2583220150312174454230"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:3044" srcDatumTransform="-1" destDatumTransform="-1" layerid="direct_23032_to_2583220150312175031148"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:4258" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150313174244001"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:3003" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150313174221047"/>
+      <layer_coordinate_transform destAuthId="EPSG:4258" srcAuthId="EPSG:23032" srcDatumTransform="-1" destDatumTransform="-1" layerid="OUTPUT_shp20150313174308145"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <visibility-presets/>
@@ -1888,11 +1889,11 @@
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">1</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>monte_mario_300320150312174430071</value>
-        <value>etrs89_32n_2583220150312174454230</value>
+        <value>direct_23032_to_2583220150312175031148</value>
         <value>direct_3003_to_2583220150312174720519</value>
         <value>ed50_2303220150312174937426</value>
-        <value>direct_23032_to_2583220150312175031148</value>
+        <value>etrs89_32n_2583220150312174454230</value>
+        <value>monte_mario_300320150312174430071</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>enabled</value>
