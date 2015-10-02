@@ -1,0 +1,7 @@
+BEV - Bundesamt für Eich- und Vermessungswesen
+
+Produkt: GIS-Grid
+
+Aktualitätsstand (Stichtag) der enthaltenen Daten: 07.05.2014
+
+www.bev.gv.at
